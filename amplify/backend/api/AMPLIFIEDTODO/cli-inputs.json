@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "AMPLIFIEDTODO",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-bf409e8a-46b0-4917-a305-ef00766d80d2/amplify/backend/api/AMPLIFIEDTODO/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
